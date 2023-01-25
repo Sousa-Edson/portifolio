@@ -20,7 +20,7 @@
   margin-top: 30vh;
 }
 .home-texto h1 span {
-  color: red;
+  color:rgba(209, 69, 34, 0.911);
 }
 .home-texto div {
   display: flex;
