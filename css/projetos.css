@@ -1,0 +1,21 @@
+.projetos {
+    background-color: rgba(156, 30, 172, 0.281);
+    height: 100vh; 
+  }
+
+  .projetos-conteudo {
+    padding-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+
+    
+    display: grid;
+    grid-template-columns:3fr;
+    
+    background-color: red;
+  }
+  .projetos-item{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+  }
