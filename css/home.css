@@ -61,6 +61,6 @@
   color: #fff;
   background-color: #92E3A9;
   border: solid 2px #fff;
-  transform: scale(1.1);
-  transition: ease-in-out 0.8s;
+  /* transform: scale(1.1); */
+  transition: ease-in-out 0.5s;
 }
