@@ -70,3 +70,9 @@ nav {
     margin: 0 auto;
     
   }
+
+
+.contato {
+    background-color: rgba(163, 172, 30, 0.281);
+    height: 100vh; 
+  }
