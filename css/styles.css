@@ -1,6 +1,6 @@
 :root {
   --primary: #00baf2;
-    --secondary: #95989a;
+  --secondary: #95989a;
   --text-color: #fff;
   --text-secondary: #000;
   --text-tertiary: #5d5d5d;
@@ -20,7 +20,7 @@
   background-size: cover;
   height: 85vh;
   display: flex;
-   
+
   justify-content: space-evenly;
   align-items: center;
   color: var(--text-color);
@@ -51,7 +51,7 @@
 
 #about .event-notion {
   font-weight: bold;
-} 
+}
 
 .form-group {
   display: flex;
@@ -83,18 +83,19 @@
   cursor: pointer;
   opacity: 0.8;
 }
-.btn-group{
+.btn-group {
   margin: 15px;
 }
-.btn-group .btn{
+.btn-group .btn {
   display: block;
   text-align: center;
   text-decoration: none;
 }
-.btn-about{
-  display: flex;justify-content: space-around;
+.btn-about {
+  display: flex;
+  justify-content: space-around;
 }
-.btn-about div{
+.btn-about div {
   width: 40%;
 }
 .btn:hover {
@@ -160,7 +161,7 @@
   margin-bottom: 3em;
 }
 #formation2 {
-    height: 400px;
+  height: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../img/informatica_banner.png");
   background-position: center;
@@ -257,7 +258,7 @@
 #contact {
   height: 300px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=6000");
+    url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=6000");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -266,10 +267,12 @@ url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-4.0.3
   text-align: center;
   color: var(--text-color);
 }
-#contact div{
-  display: flex;width: 50%;margin: 0 auto;
+#contact div {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
 }
-#contact div div{
+#contact div div {
   width: 50%;
 }
 
@@ -285,9 +288,9 @@ url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-4.0.3
   font-weight: 600;
   font-size: 1.2em;
 }
-#contact .contato{
+#contact .contact-btn {
   width: 100%;
-  margin: 0 5px ;
+  margin: 0 5px;
   text-decoration: none;
 }
 /* Footer */
@@ -316,7 +319,7 @@ url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-4.0.3
 
 /*  */
 @media (max-width: 1024px) {
-  #about{
+  #about {
     color: red;
     padding: 100px;
   }
@@ -357,7 +360,8 @@ url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-4.0.3
   }
 
   /* section formation */
-  #formation , #formation2 {
+  #formation,
+  #formation2 {
     flex-direction: column;
     height: auto;
     text-align: center;
@@ -417,6 +421,13 @@ url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-4.0.3
 
   /*  Contact Section */
   #contact .btn {
-    width: 100%;
+    width: 80%;
+  }
+}
+@media (max-width: 422px) {
+  #contact div {
+    width: 80%;
+    font-size: 10px;
+    font-weight: 600;
   }
 }
